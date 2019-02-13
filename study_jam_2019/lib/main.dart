@@ -55,7 +55,7 @@ class RandomWordsState extends State<RandomWords> {
 
           return new Scaffold(         // Add 6 lines from here...
             appBar: new AppBar(
-              backgroundColor: Colors.purple,
+              backgroundColor: Colors.red,
               title: const Text('Saved Suggestions'),
             ),
             body: new ListView(children: divided),
