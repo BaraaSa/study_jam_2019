@@ -71,7 +71,7 @@ class RandomWordsState extends State<RandomWords> {
     return new Scaffold(
       appBar: new AppBar(
         title: const Text('Hello World'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.blue,
         actions: <Widget>[      // Add 3 lines from here...
           new IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved),
         ],
@@ -82,7 +82,7 @@ class RandomWordsState extends State<RandomWords> {
 
   Widget _buildSuggestions() {
     return new ListView.builder(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(15.0),
         itemBuilder: (BuildContext _context, int i) {
           if (i.isOdd) {
             return const Divider();
