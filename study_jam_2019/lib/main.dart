@@ -28,7 +28,7 @@ class RandomWordsState extends State<RandomWords> {
 
 
 
-  final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
+  final TextStyle _biggerFont = const TextStyle(fontSize: 17.0);
 
 
 
@@ -70,7 +70,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: const Text('Hello world'),
+        title: const Text('Hello World'),
         backgroundColor: Colors.purple,
         actions: <Widget>[      // Add 3 lines from here...
           new IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved),
